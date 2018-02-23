@@ -38,11 +38,6 @@ $(document).ready(function() {
     // Test
     // console.log(userNumber);
 
-    // Don't accept negative number
-    if (userNumber < 0) {
-      alert("This is not a positive number");
-    }
-
     var result = numberArray(userNumber);
     // Test
     // console.log(result);

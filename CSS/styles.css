@@ -9,10 +9,22 @@ h1 {
 
 .intro {
   text-align: center;
+  font-size: 300%;
+}
+
+#intro {
+  font-size: 200%;
+}
+
+.border {
+  border-style: groove;
+  border-width: 7px;
+  border-color: #FF3380;
 }
 
 h2 {
   text-align: center;
+  text-shadow: 0 0 3px #FF0000;
 }
 
 h3 {
@@ -23,6 +35,9 @@ IMG.displayed {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-style: groove;
+  border-width: 10px;
+  border-color: 0 0 #FF0000;
 }
 
 body {
