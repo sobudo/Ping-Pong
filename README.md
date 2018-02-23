@@ -1,58 +1,47 @@
-Ping Pong
+# Ping Pong
+A web application that displays a list of numbers from number 1 to the number the user inputs with exceptions for numbers divisible by 3 or 5 or both.
 
-This is a web application that displays a list of numbers from number 1 to the number the user inputs with exception for number 3, 5 and their multiples, 18/08/2017
+#### By Sandra Obudo
 
-By Carol Wanjohi
-
-Description
-
-This is a web application that asks the user to input a number into an input field and submit it by clicking on the submit button. Afterwards an output is displayed to the user. The output consists of number 1 upto the user input number with the exception of number 3, 5 and their multiples.
+## Description
+Ping Pong is a simple numbers game where a user is prompted to input a number into a field and submit it using the submit button. The user then gets a result which consists of numbers from 1 up to the number the user inputted with the exception of numbers divisible by 3, 5 or both.
 
 For numbers divisible by 3 the output is ping
 For numbers divisible by 5 the output is pong
 For numbers divisible by 3 and 5 the output is pingpong
-Ping Pong
 
-How Ping Pong Works
-
-The program should count to the number provided by the user
+## Specifications
+The program should count to the number provided by the user for example:
 
 Input : 2
 Output : [1, 2]
-The program should replace 3 and its multiples with ping
 
-Input : 11
-Output : [1, 2, ping, 4, 5, ping, 7, 8, ping, 10, 11]
-The program should replace 5 and its multiples with pong
+Input : 10
+Output : [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11]
+The program should replace numbers divisible by 3 with ping and those by 5 with pong
 
-Input : 13
-Output : [ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13]
-The program should replace multiples of both 3 and 5 or 15 and its multiples with pingpong
+Input : 15
+Output : [ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
+The program should replace numbers divisible by both 3 and 5 with pingpong
 
-Input : 17
-Output : [ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17]
-The program should return a message when input is a negative number
 
-Input : -20
-Output : This is not a positive number
-Setup/Installation Requirements
+## Setup/Installation Requirements
+Requires internet connection
+Copy and Paste the link at your preferred browser
 
-Click Ping Pong
-or
-Copy Ping Pong and Paste the link at your prefered browerser
-This requires internet connection
+## Known Bugs
+No known bugs but contact sobudo@gmail.com if you come across any
 
-Known Bugs
-
-No known bugs
-
-Technologies Used
-
+## Technologies Used
 HTML
 CSS
 JAVASCRIPT
 BOOTSTRAP
 JQUERY
-License
 
-MIT (c) 2017 Carol Wanjohi
+### License
+Copyright (c) [2018] [Sandra Obudo]
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
