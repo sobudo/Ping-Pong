@@ -3,10 +3,9 @@
 
   <head>
     <meta charset="utf-8">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-
     <title>Ping Pong</title>
   </head>
 
@@ -16,30 +15,39 @@
     <img class="displayed" src="images/infinity.jpeg" alt="buses">
     <h2 class="intro">Let's Play</h2>
     <p>Rules:</p>
-    <p>Enter any number and ping pong will return a random number with the following exceptions:</p>
-    <ul>
-      <li>Numbers divisible by 3 are replaced with "ping"</li>
-      <li>Numbers divisible by 5 are replaced with "pong"</li>
-      <li>Numbers divisible by 15 are replaced with "pingpong"</li>
-    </ul>
+    <p>Enter any number and Ping Pong will count up to your number from number 1 with the following exceptions:</p>
+    <ol>
+      <li>Numbers divisible by 3 become <span class="replacement">ping</span></li>
+      <li>Numbers divisible by 5 become <span class="replacement">pong</span></li>
+      <li>Numbers divisible by 3 and 5 become <span class="replacement">ping</span></li>
+    </ol>
 
-    <form id="number-game">
-      <div class="form-group">
-        <label for="number">Enter your number here:</label>
-        <input id="number" type="text">
-        <button type="submit" class="btn">Ping Pong</button>
-    </form>
-
-    <div id="result">
-      <p><span class="not"></span> <span class="correct"></span></p>
-    </div>
     </div>
 
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <div class="section3">
+
+      <form class="form-inline" id="ping-pong">
+        <div class="form-group">
+          <label for="userNumber">Enter a your number here:</label>
+          <input id="userNumber" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn" id="pingpongButton">Ping Pong!</button>
+      </form>
+
+    </div>
+
+    <div class="section4">
+
+      <ul id="result">
+
+      </ul>
+
+    </div>
+
+    </div>
+    <script src="JS/jquery-3.3.1.js"></script>
+    <script src="JS/scripts.js"></script>
   </body>
-
-</html>
-</body>
 
 </html>
