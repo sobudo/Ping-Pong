@@ -35,12 +35,9 @@ $(document).ready(function() {
 
     // Store user input as a number
     var userNumber = parseInt($("input#userNumber").val());
-    // Test
-    // console.log(userNumber);
 
     var result = numberArray(userNumber);
-    // Test
-    // console.log(result);
+
 
     for (var index = 0; index < result.length; index += 1) {
       $("ul#result").append("<li>" + result[index] + "</li>")
